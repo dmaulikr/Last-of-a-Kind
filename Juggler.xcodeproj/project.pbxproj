@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C5155A156464D80000AD00 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C51559156464D80000AD00 /* UIKit.framework */; };
+		16C5155C156464D80000AD00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C5155B156464D80000AD00 /* Foundation.framework */; };
+		16C5155E156464D80000AD00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C5155D156464D80000AD00 /* CoreGraphics.framework */; };
+		16C51564156464D80000AD00 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 16C51562156464D80000AD00 /* InfoPlist.strings */; };
+		16C51566156464D80000AD00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C51565156464D80000AD00 /* main.m */; };
+		16C5156A156464D80000AD00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C51569156464D80000AD00 /* AppDelegate.m */; };
+		16C5156D156464D80000AD00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C5156C156464D80000AD00 /* ViewController.m */; };
+		16C51570156464D80000AD00 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16C5156E156464D80000AD00 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C51555156464D80000AD00 /* Juggler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juggler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C51559156464D80000AD00 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		16C5155B156464D80000AD00 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		16C5155D156464D80000AD00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		16C51561156464D80000AD00 /* Juggler-Info.plist */ = {isa = PBXFileReference; path = "Juggler-Info.plist"; sourceTree = "<group>"; };
+		16C51563156464D80000AD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		16C51565156464D80000AD00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16C51567156464D80000AD00 /* Juggler-Prefix.pch */ = {isa = PBXFileReference; path = "Juggler-Prefix.pch"; sourceTree = "<group>"; };
+		16C51568156464D80000AD00 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		16C51569156464D80000AD00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16C5156B156464D80000AD00 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		16C5156C156464D80000AD00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16C5156F156464D80000AD00 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C51552156464D80000AD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C5155A156464D80000AD00 /* UIKit.framework in Frameworks */,
+				16C5155C156464D80000AD00 /* Foundation.framework in Frameworks */,
+				16C5155E156464D80000AD00 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C5154A156464D70000AD00 = {
+			isa = PBXGroup;
+			children = (
+				16C5155F156464D80000AD00 /* Juggler */,
+				16C51558156464D80000AD00 /* Frameworks */,
+				16C51556156464D80000AD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C51556156464D80000AD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C51555156464D80000AD00 /* Juggler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C51558156464D80000AD00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C51559156464D80000AD00 /* UIKit.framework */,
+				16C5155B156464D80000AD00 /* Foundation.framework */,
+				16C5155D156464D80000AD00 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		16C5155F156464D80000AD00 /* Juggler */ = {
+			isa = PBXGroup;
+			children = (
+				16C51568156464D80000AD00 /* AppDelegate.h */,
+				16C51569156464D80000AD00 /* AppDelegate.m */,
+				16C5156B156464D80000AD00 /* ViewController.h */,
+				16C5156C156464D80000AD00 /* ViewController.m */,
+				16C5156E156464D80000AD00 /* ViewController.xib */,
+				16C51560156464D80000AD00 /* Supporting Files */,
+			);
+			path = Juggler;
+			sourceTree = "<group>";
+		};
+		16C51560156464D80000AD00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16C51561156464D80000AD00 /* Juggler-Info.plist */,
+				16C51562156464D80000AD00 /* InfoPlist.strings */,
+				16C51565156464D80000AD00 /* main.m */,
+				16C51567156464D80000AD00 /* Juggler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C51554156464D80000AD00 /* Juggler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C51573156464D80000AD00 /* Build configuration list for PBXNativeTarget "Juggler" */;
+			buildPhases = (
+				16C51551156464D80000AD00 /* Sources */,
+				16C51552156464D80000AD00 /* Frameworks */,
+				16C51553156464D80000AD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juggler;
+			productName = Juggler;
+			productReference = 16C51555156464D80000AD00 /* Juggler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C5154C156464D70000AD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 16C5154F156464D70000AD00 /* Build configuration list for PBXProject "Juggler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C5154A156464D70000AD00;
+			productRefGroup = 16C51556156464D80000AD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C51554156464D80000AD00 /* Juggler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C51553156464D80000AD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C51564156464D80000AD00 /* InfoPlist.strings in Resources */,
+				16C51570156464D80000AD00 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C51551156464D80000AD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C51566156464D80000AD00 /* main.m in Sources */,
+				16C5156A156464D80000AD00 /* AppDelegate.m in Sources */,
+				16C5156D156464D80000AD00 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		16C51562156464D80000AD00 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C51563156464D80000AD00 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		16C5156E156464D80000AD00 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16C5156F156464D80000AD00 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16C51571156464D80000AD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C51572156464D80000AD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C51574156464D80000AD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Juggler/Juggler-Prefix.pch";
+				INFOPLIST_FILE = "Juggler/Juggler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		16C51575156464D80000AD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Juggler/Juggler-Prefix.pch";
+				INFOPLIST_FILE = "Juggler/Juggler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C5154F156464D70000AD00 /* Build configuration list for PBXProject "Juggler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C51571156464D80000AD00 /* Debug */,
+				16C51572156464D80000AD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C51573156464D80000AD00 /* Build configuration list for PBXNativeTarget "Juggler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C51574156464D80000AD00 /* Debug */,
+				16C51575156464D80000AD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C5154C156464D70000AD00 /* Project object */;
+}
